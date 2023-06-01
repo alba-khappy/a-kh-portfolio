@@ -31,22 +31,32 @@
                 <li class="header__nav-item">
                     <a href="" class="header__nav-link">Контакты</a>
                 </li>
+                <li class="header__nav-item--mobile">
+                    <a href="" class="header__link-presentation">
+                        <img src="./images/pdf.svg" alt="">
+                        <p class="header__link-presentation-description">Презентация</p>
+                    </a>
+                </li>
+                <li class="header__button-close"></li>
             </ul>
-            <a href="" class="header__link-presentation">
-                <img src="./images/pdf.svg" alt="">
-                <p class="header__link-presentation-description">Презентация</p>
-            </a>
-            <ul class="header__socials-list">
-                <li class="header__social-item">
-                    <a href="" class="header__social-link header__social-link--1"></a>
-                </li>
-                <li class="header__social-item">
-                    <a href="" class="header__social-link header__social-link--2"></a>
-                </li>
-                <li class="header__social-item">
-                    <a href="" class="header__social-link header__social-link--3"></a>
-                </li>
-            </ul>
+            <div class="header__links-wrapper">
+                <a href="" class="header__link-presentation header__link-presentation--desktop">
+                    <img src="./images/pdf.svg" alt="">
+                    <p class="header__link-presentation-description">Презентация</p>
+                </a>
+                <ul class="header__socials-list">
+                    <li class="header__social-item">
+                        <a href="" class="header__social-link header__social-link--1"></a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="" class="header__social-link header__social-link--2"></a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="" class="header__social-link header__social-link--3"></a>
+                    </li>
+                </ul>
+                <button class="header__burger"></button>
+            </div>
         </div>
     </header>
 
@@ -55,12 +65,14 @@
             <div class="wrapper main-banner__wrapper">
                 <h1 class="main-banner__heading">Разработка сайтов <br>для архитекторов <br>и дизайнеров интерьера
                 </h1>
-                <p class="main-banner__description">
-                    Десятки работ для дизайнеров и архитекторов, рекомендации профессионалов сферы, индивидуальный подход и тонкое понимание требований.
-                </p>
-                <p class="main-banner__description">
-                    Нам предстояло решить сложную и стратегически важную задачу — сохранить небрендовый трафик и при этом минимизировать потери позиций в поисковой выдаче
-                </p>
+                <div class="main-banner__description">
+                    <p>
+                        Десятки работ для дизайнеров и архитекторов, рекомендации профессионалов сферы, индивидуальный подход и тонкое понимание требований.
+                    </p>
+                    <p>
+                        Нам предстояло решить сложную и стратегически важную задачу — сохранить небрендовый трафик и при этом минимизировать потери позиций в поисковой выдаче
+                    </p>
+                </div>
                 <div class="main-banner__buttons-wrapper">
                     <a href="" class="primary-button">С кем работали</a>
                     <a href="" class="primary-button">Бесплатная консультация</a>
@@ -120,7 +132,7 @@
                 </div>
             </div>
             <div class="work wrapper">
-                <div class="work__info">
+                <div class="work__info work__info_reverse">
                     <div class="work__info__about">
                         <div class="about__top">
                             <h3>Архитектурное бюро "За бор"</h3>
@@ -131,8 +143,8 @@
                             <a href="#">Подробнее о проекте</a>
                         </div>
                         <div class="about__description">
-                            <p>za bor – архитектурная мастерская, основанная в Москве в 2003 году архитекторами Петром Зайцевым и Арсением Борисенко. Основные виды деятельности компании – проектирование жилых и общественных зданий, частных домов и коттеджей; интерьерный дизайн офисных и жилых объектов.</p>
-                            <p>Проекты мастерской выдержаны в современном стиле, их отличает обилие архитектурных приемов, использованных как в объемном проектировании, так и в дизайне интерьеров, как в объемном проектировании, так и в дизайне интерьеров.</p>
+                            za bor – архитектурная мастерская, основанная в Москве в 2003 году архитекторами Петром Зайцевым и Арсением Борисенко. Основные виды деятельности компании – проектирование жилых и общественных зданий, частных домов и коттеджей; интерьерный дизайн офисных и жилых объектов.
+                            Проекты мастерской выдержаны в современном стиле, их отличает обилие архитектурных приемов, использованных как в объемном проектировании, так и в дизайне интерьеров, как в объемном проектировании, так и в дизайне интерьеров.
                         </div>
                     </div>
                     <div class="work__info__images images_2">
@@ -149,7 +161,7 @@
                 </div>
             </div>
 
-            <div class="work wrapper">
+            <div class="work wrapper work__reverse">
                 <div class="work__info work__info_reverse">
                     <div class="work__info__about">
                         <div class="about__top">
@@ -207,9 +219,9 @@
             </div>
 
             <section id="" class="section offer">
-                <div class="wrapper">
+                <div class="wrapper offer__wrapper">
                     <h2 class="h2-style">Хотите так же?</h2>
-                    <p>Давайте обсудим вашу задачу, оставьте заявку</p>
+                    <p class="offer__description">Давайте обсудим вашу задачу, оставьте заявку</p>
                     <div class="offer__buttons-wrapper">
                         <input placeholder="Введите номер телефона" class="offer__input">
                         <button class="primary-button">Оставить заявку</button>
@@ -217,8 +229,8 @@
                 </div>
             </section>
 
-            <div class="work wrapper">
-                <div class="work__info work__info_reverse">
+            <div class="work wrapper work__reverse">
+                <div class="work__info">
                     <div class="work__info__about">
                         <div class="about__top">
                             <h3>Лайтон — представительство интертерьерных фабрик</h3>
@@ -245,7 +257,7 @@
             </div>
 
             <div class="work wrapper">
-                <div class="work__info">
+                <div class="work__info work__info_reverse">
                     <div class="work__info__about">
                         <div class="about__top">
                             <h3>Студия дизайна интерьеров KS Interiors</h3>
@@ -274,15 +286,15 @@
                 </div>
             </div>
 
-            <div class="work wrapper">
-                <div class="work__info work__info_reverse">
+            <div class="work wrapper work__reverse">
+                <div class="work__info">
                     <div class="work__info__about">
                         <div class="about__top">
-                            <h3>Лайтон — представительство интертерьерных фабрик</h3>
-                            <div class="about__top_year">2019</div>
+                            <h3>Международная дизайн-премия Feeel Prize</h3>
+                            <div class="about__top_year">2020 – 2023</div>
                         </div>
                         <div class="about__links">
-                            <a href="#" target="_blank" rel="noopener">lightonsrl.com </a>
+                            <a href="#" target="_blank" rel="noopener">feeelprize.com </a>
                             <a href="#">Подробнее о проекте</a>
                         </div>
                         <div class="about__description">
@@ -308,8 +320,8 @@
                 <div class="founders__wrapper">
                     <img src="./images/about-photo.jpg">
                     <div class="founders__content-wrapper">
-                        <p class="">Александр Харитонов</p>
-                        <p class="">Веб-разработчик, специалист по SEO и диджитал-маркетингу.</p>
+                        <p class="founders__content-name">Александр Харитонов</p>
+                        <p class="founders__content-profession">Веб-разработчик, специалист по SEO и диджитал-маркетингу.</p>
                         <p class="">До того, как оказаться в индустрии дизайна, работал с самыми разными компаниями, связанными с торговлей, фармацевтикой, информационными технологиями, геодезией и даже кейтерингом.</p>
                         <p class="">С 2018 года плотно работает с сайтами и интернет-инфраструктурой в сфере архитектуры и интерьерного дизайна, разбираясь в нюансах и требованиях, специфических данной индустрии.</p>
                         <p class="">За более чем 12 лет практики Александр принимал участие в разработке более 270 сайтов (150 из них разрабатывал в качестве главного специалиста), за последние два года консультировал более 40 компаний по продвижению в интернете и социальных сетях.</p>
@@ -321,5 +333,6 @@
 
     <footer class="footer">
     </footer>
+    <script src="./burger.js"></script>
 </body>
 </html>
