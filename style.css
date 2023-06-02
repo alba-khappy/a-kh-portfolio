@@ -308,6 +308,10 @@ input {
     height: 100%;
 }
 
+.work_image {
+    display: flex;
+}
+
 .work {
     display: flex;
     margin-bottom: 5rem;
@@ -503,6 +507,11 @@ input {
     .section__title_flex,
     .header__nav-list {
         flex-direction: column;
+    }
+
+    .main-banner__buttons-wrapper {
+        max-width: 20rem;
+        margin: 0 auto;
     }
 
     .header__nav-list {
