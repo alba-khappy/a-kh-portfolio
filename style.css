@@ -244,7 +244,6 @@ input {
 }
 
 .main-banner__description p span {
-    font-weight: 700;
     border-bottom: 1px solid #3a093f;;
     color: #3a093f;
 }
@@ -372,7 +371,7 @@ input {
 }
 
 .images_2 {
-    height: 50%;
+    /* height: 50%; */
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-area: 1/1/2/3;
@@ -383,7 +382,16 @@ input {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 5% 5% 0 0;
+    padding-right: 5%;
+}
+
+.work__reverse .work__info .work__info__about {
+    padding-right: 0;
+    padding-left: 5%;
+}
+
+.work__info_reverse .work__info__about {
+    padding-top: 5%;
 }
 
 .about__top {
