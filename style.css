@@ -631,6 +631,16 @@ input {
         font-size: 1rem;
     }
 
+    .work__info__about {
+        padding-right: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .work__reverse .work__info .work__info__about {
+        padding-left: 0;
+    }
+
     .work, .founders__wrapper, .about__description {
         flex-direction: column;
     }
