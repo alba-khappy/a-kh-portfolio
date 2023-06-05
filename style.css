@@ -494,6 +494,10 @@ input {
     display: flex;
 }
 
+.founders__h2 {
+    margin-bottom: 3rem;
+}
+
 .founders__wrapper img {
     width: 100%;
     max-height: 657px;
