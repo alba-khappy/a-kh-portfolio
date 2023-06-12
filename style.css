@@ -60,20 +60,19 @@ input {
 .primary-button {
     display: inline-block;
     font-size: 1rem;
-    font-weight: 700;
     background: radial-gradient(36.33% 719.42% at 76.4% 50%, #3B69EF 0%, #0F3ED9 100%);
     border-radius: 1.9rem;
     text-align: center;
     border: none;
-    padding: .6rem 1.3rem;
+    padding: .8rem 1.5rem;
     color: #FFF;
 }
 
 .input-style {
-    min-width: 20rem;
+    min-width: 15rem;
     border: 2px solid #103ED9;
     border-radius: .3rem;
-    padding: 1rem;
+    padding: 0.7rem 1.3rem;;
     font-size: 1rem;
 }
 
@@ -228,7 +227,7 @@ input {
 }
 
 .main-banner__wrapper {
-    max-width: 700px;
+    max-width: 960px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,6 +271,14 @@ input {
     align-items: center;
     justify-content: space-between;
     gap: 3.5rem;
+}
+
+.section__title_flex h2 {
+    max-width: 50%;
+}
+
+.section__title_flex div {
+    width: 50%;
 }
 
 .section__title_flex p {
@@ -486,7 +493,7 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .offer__description {
@@ -494,18 +501,9 @@ input {
     font-size: 1rem;
 }
 
-/* .offer__input {
-    min-width: 20rem;
-    border: 2px solid #103ED9;
-    border-radius: .3rem;
-    padding: 1rem;
-    font-size: 1rem;
+.offer__description p {
+    margin: 0;
 }
-
-.offer__input::placeholder {
-    font-size: 1rem;
-    color: rgba(0, 0, 0, 0.5);
-} */
 
 
 /*founders*/
